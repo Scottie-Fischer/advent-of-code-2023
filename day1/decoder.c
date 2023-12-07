@@ -56,7 +56,7 @@ int main(){
         uint8_t digits[64];
         uint8_t digitIndx = 0;
         uint8_t stringIndx = 0;
-        char string[32];
+        char string[64];
 
         for(char* linePtr = line; *linePtr !='\0'; linePtr++){
             char c = *linePtr;
